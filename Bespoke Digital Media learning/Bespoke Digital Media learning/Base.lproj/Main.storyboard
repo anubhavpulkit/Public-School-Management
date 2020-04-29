@@ -743,7 +743,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yWt-XW-sPt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2111.594202898551" y="129.91071428571428"/>
+            <point key="canvasLocation" x="2112" y="129"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="ZQN-b4-6rs">
@@ -856,6 +856,9 @@
                                                 <state key="normal" title="LOGOUT">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="hf0-GZ-gOY" kind="show" id="l07-Xi-yaw"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -876,26 +879,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rsN-iS-Qew"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" image="ic_home" id="b5i-NQ-BBn">
-                            <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <connections>
-                                <segue destination="QyX-fq-J7v" kind="showDetail" id="f3l-CN-cu8"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem tag="3" title="Item" image="other" style="plain" id="T9q-a0-ZYe">
-                            <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </barButtonItem>
-                        <barButtonItem title="Item" image="profile" id="UhN-gV-gnz">
-                            <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <connections>
-                                <segue destination="iZs-Uk-1lc" kind="show" id="2ls-GY-mkx"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem title="Item" image="reward" id="46z-vF-Dz3">
-                            <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </barButtonItem>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="stv-cs-bxK">
                         <barButtonItem key="leftBarButtonItem" title="sidebar" image="text.justify" catalog="system" id="SyC-qZ-8Kt">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -920,7 +904,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rd7-oq-7lQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2060.8695652173915" y="1060.7142857142858"/>
+            <point key="canvasLocation" x="2112" y="1021"/>
         </scene>
         <!--Timetable View Controller-->
         <scene sceneID="wGr-0I-bNK">
@@ -1173,7 +1157,79 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gkI-R8-d0O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2857" y="548"/>
+            <point key="canvasLocation" x="3245" y="129"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="6rF-tm-pOR">
+            <objects>
+                <viewController id="hf0-GZ-gOY" customClass="AboutViewController" customModule="Bespoke_Digital_Media_learning" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CYV-SZ-Us3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital_logo - Copy" translatesAutoresizingMaskIntoConstraints="NO" id="jlv-yE-aDC">
+                                <rect key="frame" x="87" y="44" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="2pr-M1-Cmm"/>
+                                    <constraint firstAttribute="width" constant="240" id="cXN-OV-ovZ"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1pS-AR-1tx">
+                                <rect key="frame" x="20" y="180" width="374" height="633"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="1pS-AR-1tx" firstAttribute="bottom" secondItem="Zps-oy-Hw8" secondAttribute="bottom" id="6hI-UP-hQW"/>
+                            <constraint firstItem="1pS-AR-1tx" firstAttribute="leading" secondItem="Zps-oy-Hw8" secondAttribute="leading" constant="20" id="9Qq-iF-JT1"/>
+                            <constraint firstItem="jlv-yE-aDC" firstAttribute="top" secondItem="Zps-oy-Hw8" secondAttribute="top" id="A1c-jX-Guk"/>
+                            <constraint firstItem="Zps-oy-Hw8" firstAttribute="trailing" secondItem="1pS-AR-1tx" secondAttribute="trailing" constant="20" id="HS2-Em-RTd"/>
+                            <constraint firstItem="1pS-AR-1tx" firstAttribute="top" secondItem="jlv-yE-aDC" secondAttribute="bottom" constant="8" id="WGD-y9-fLN"/>
+                            <constraint firstItem="1pS-AR-1tx" firstAttribute="top" secondItem="jlv-yE-aDC" secondAttribute="bottom" constant="8" id="iWq-7O-QAW"/>
+                            <constraint firstItem="jlv-yE-aDC" firstAttribute="leading" secondItem="Zps-oy-Hw8" secondAttribute="leading" constant="87" id="mA8-67-xyT"/>
+                            <constraint firstItem="jlv-yE-aDC" firstAttribute="top" secondItem="Zps-oy-Hw8" secondAttribute="top" id="mbY-UR-oxp"/>
+                            <constraint firstItem="Zps-oy-Hw8" firstAttribute="trailing" secondItem="jlv-yE-aDC" secondAttribute="trailing" constant="87" id="vUd-UO-MqZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Zps-oy-Hw8"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" image="ic_home" id="b5i-NQ-BBn">
+                            <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="QyX-fq-J7v" kind="showDetail" id="f3l-CN-cu8"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem tag="3" title="Item" image="other" style="plain" id="T9q-a0-ZYe">
+                            <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                        <barButtonItem title="Item" image="profile" id="UhN-gV-gnz">
+                            <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="iZs-Uk-1lc" kind="show" id="jBN-3s-hMS"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="Item" image="reward" id="46z-vF-Dz3">
+                            <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="Vwa-nr-B9k">
+                        <barButtonItem key="leftBarButtonItem" title="About" image="arrow.left" catalog="system" id="xYr-Qm-o34">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="QyX-fq-J7v" kind="show" id="lpM-xH-cMa"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pgo-aG-Kse" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3673.913043478261" y="1020.5357142857142"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qtG-Vi-bRe">
@@ -1195,7 +1251,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ljd-ZR-2pt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
+            <point key="canvasLocation" x="4" y="129"/>
         </scene>
     </scenes>
     <resources>
@@ -1218,7 +1274,7 @@
         <image name="trophy" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fwu-Yx-Czz"/>
+        <segue reference="jBN-3s-hMS"/>
         <segue reference="f3l-CN-cu8"/>
     </inferredMetricsTieBreakers>
 </document>
