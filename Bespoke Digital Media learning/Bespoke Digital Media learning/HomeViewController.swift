@@ -13,11 +13,23 @@ import SideMenu
 class HomeViewController: UIViewController {
     
     @IBOutlet weak var NavigaitonBar: UINavigationItem!
+    @IBOutlet weak var AssignmentGif: UIImageView!
+    @IBOutlet weak var FeeGif: UIImageView!
+    @IBOutlet weak var AttendanceGif: UIImageView!
+    @IBOutlet weak var performanceGif: UIImageView!
+    @IBOutlet weak var timeTableGif: UIImageView!
     
     var menu: SideMenuNavigationController?
         
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Adding Gif files
+        AssignmentGif.loadGif(name: "assignment")
+        FeeGif.loadGif(name: "feesvect")
+        AttendanceGif.loadGif(name: "timetable")
+        performanceGif.loadGif(name: "performance")
+        timeTableGif.loadGif(name: "attendance")
         
         // Navigaton bar attributes
         navigationController?.navigationBar.barTintColor = UIColor(red: 43/255.0, green: 188/255.0, blue: 184/255.0, alpha: 1)
@@ -29,7 +41,7 @@ class HomeViewController: UIViewController {
         menu = SideMenuNavigationController(rootViewController: MenuListController())
         menu?.leftSide = true
         
-      //  menu?.setNavigationBarHidden(true, animated: false) if want to remove navigation bar
+      //  menu?.setNavigationBarHidden(true, animated: false)
         
         SideMenuManager.default.leftMenuNavigationController = menu
         SideMenuManager.default.addPanGestureToPresent(toView: self.view)
@@ -44,7 +56,7 @@ class HomeViewController: UIViewController {
 
 class MenuListController: UITableViewController{
     var item = ["profile", "Contact", "About", "Logout"]
-    let darkColor = UIColor(red: 33/255.0, green: 33/255.0, blue: 33/255.0, alpha: 1)
+    let darkColor = UIColor(red: 32/255.0, green: 138/255.0, blue: 144/255.0, alpha: 1)
   override func viewDidLoad() {
     super.viewDidLoad()
     tableView.backgroundColor = darkColor

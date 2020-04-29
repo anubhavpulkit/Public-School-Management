@@ -3,12 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5C5172C4450CB7D2C30465B8 /* Pods_Bespoke_Digital_Media_learning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D2B6E6BED22FBC8F177EE6 /* Pods_Bespoke_Digital_Media_learning.framework */; };
 		E67FB6922458BC5400EA989A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FB6912458BC5400EA989A /* HomeViewController.swift */; };
+		E69FECE7245958E90069709A /* swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FECE6245958E90069709A /* swift+gif.swift */; };
+		E69FECEE24595CB50069709A /* message.gif in Resources */ = {isa = PBXBuildFile; fileRef = E69FECE824595CB50069709A /* message.gif */; };
+		E69FECEF24595CB50069709A /* assignment.gif in Resources */ = {isa = PBXBuildFile; fileRef = E69FECE924595CB50069709A /* assignment.gif */; };
+		E69FECF024595CB50069709A /* performance.gif in Resources */ = {isa = PBXBuildFile; fileRef = E69FECEA24595CB50069709A /* performance.gif */; };
+		E69FECF124595CB50069709A /* feesvect.gif in Resources */ = {isa = PBXBuildFile; fileRef = E69FECEB24595CB50069709A /* feesvect.gif */; };
+		E69FECF224595CB50069709A /* timetable.gif in Resources */ = {isa = PBXBuildFile; fileRef = E69FECEC24595CB50069709A /* timetable.gif */; };
+		E69FECF324595CB50069709A /* attendance.gif in Resources */ = {isa = PBXBuildFile; fileRef = E69FECED24595CB50069709A /* attendance.gif */; };
 		E6F681DA2456BC5D007CD2FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F681D92456BC5D007CD2FA /* AppDelegate.swift */; };
 		E6F681DC2456BC5D007CD2FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F681DB2456BC5D007CD2FA /* SceneDelegate.swift */; };
 		E6F681DE2456BC5D007CD2FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F681DD2456BC5D007CD2FA /* ViewController.swift */; };
@@ -23,6 +30,13 @@
 		77F9DA6DB6E3812856104940 /* Pods-Bespoke Digital Media learning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bespoke Digital Media learning.release.xcconfig"; path = "Target Support Files/Pods-Bespoke Digital Media learning/Pods-Bespoke Digital Media learning.release.xcconfig"; sourceTree = "<group>"; };
 		E5698BB60CF11E3895F4D94A /* Pods-Bespoke Digital Media learning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bespoke Digital Media learning.debug.xcconfig"; path = "Target Support Files/Pods-Bespoke Digital Media learning/Pods-Bespoke Digital Media learning.debug.xcconfig"; sourceTree = "<group>"; };
 		E67FB6912458BC5400EA989A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E69FECE6245958E90069709A /* swift+gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swift+gif.swift"; sourceTree = "<group>"; };
+		E69FECE824595CB50069709A /* message.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = message.gif; sourceTree = "<group>"; };
+		E69FECE924595CB50069709A /* assignment.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = assignment.gif; sourceTree = "<group>"; };
+		E69FECEA24595CB50069709A /* performance.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = performance.gif; sourceTree = "<group>"; };
+		E69FECEB24595CB50069709A /* feesvect.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = feesvect.gif; sourceTree = "<group>"; };
+		E69FECEC24595CB50069709A /* timetable.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = timetable.gif; sourceTree = "<group>"; };
+		E69FECED24595CB50069709A /* attendance.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = attendance.gif; sourceTree = "<group>"; };
 		E6F681D62456BC5D007CD2FA /* Bespoke Digital Media learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bespoke Digital Media learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F681D92456BC5D007CD2FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6F681DB2456BC5D007CD2FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +66,6 @@
 				E5698BB60CF11E3895F4D94A /* Pods-Bespoke Digital Media learning.debug.xcconfig */,
 				77F9DA6DB6E3812856104940 /* Pods-Bespoke Digital Media learning.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -90,8 +103,15 @@
 				E6F681DB2456BC5D007CD2FA /* SceneDelegate.swift */,
 				E6F681DD2456BC5D007CD2FA /* ViewController.swift */,
 				E67FB6912458BC5400EA989A /* HomeViewController.swift */,
+				E69FECE6245958E90069709A /* swift+gif.swift */,
 				E6F681DF2456BC5D007CD2FA /* Main.storyboard */,
 				E6F681E22456BC64007CD2FA /* Assets.xcassets */,
+				E69FECE924595CB50069709A /* assignment.gif */,
+				E69FECED24595CB50069709A /* attendance.gif */,
+				E69FECEB24595CB50069709A /* feesvect.gif */,
+				E69FECE824595CB50069709A /* message.gif */,
+				E69FECEA24595CB50069709A /* performance.gif */,
+				E69FECEC24595CB50069709A /* timetable.gif */,
 				E6F681E42456BC64007CD2FA /* LaunchScreen.storyboard */,
 				E6F681E72456BC64007CD2FA /* Info.plist */,
 			);
@@ -158,10 +178,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E69FECF024595CB50069709A /* performance.gif in Resources */,
 				E6F681E62456BC64007CD2FA /* LaunchScreen.storyboard in Resources */,
+				E69FECEE24595CB50069709A /* message.gif in Resources */,
 				E6F681EE2456BE92007CD2FA /* Montserrat in Resources */,
 				E6F681E32456BC64007CD2FA /* Assets.xcassets in Resources */,
+				E69FECF224595CB50069709A /* timetable.gif in Resources */,
+				E69FECF124595CB50069709A /* feesvect.gif in Resources */,
 				E6F681E12456BC5D007CD2FA /* Main.storyboard in Resources */,
+				E69FECEF24595CB50069709A /* assignment.gif in Resources */,
+				E69FECF324595CB50069709A /* attendance.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +242,7 @@
 			files = (
 				E6F681DE2456BC5D007CD2FA /* ViewController.swift in Sources */,
 				E6F681DA2456BC5D007CD2FA /* AppDelegate.swift in Sources */,
+				E69FECE7245958E90069709A /* swift+gif.swift in Sources */,
 				E6F681DC2456BC5D007CD2FA /* SceneDelegate.swift in Sources */,
 				E67FB6922458BC5400EA989A /* HomeViewController.swift in Sources */,
 			);
