@@ -11,6 +11,14 @@ import SideMenu
 
 class ProfileViewController: UIViewController {
 
+    @IBOutlet weak var InfoLabel: UILabel!
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var Roll: UILabel!
+    @IBOutlet weak var Mobile: UILabel!
+    @IBOutlet weak var FatherName: UILabel!
+    @IBOutlet weak var Mothername: UILabel!
+    @IBOutlet weak var logout: UIButton!
+    
     var menu: SideMenuNavigationController?
 
     override func viewDidLoad() {
