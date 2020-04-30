@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5C5172C4450CB7D2C30465B8 /* Pods_Bespoke_Digital_Media_learning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D2B6E6BED22FBC8F177EE6 /* Pods_Bespoke_Digital_Media_learning.framework */; };
 		E67FB6922458BC5400EA989A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FB6912458BC5400EA989A /* HomeViewController.swift */; };
+		E6821971245AF23C001D6A77 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6821970245AF23C001D6A77 /* ContactView.swift */; };
 		E69FECE7245958E90069709A /* swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FECE6245958E90069709A /* swift+gif.swift */; };
 		E69FECEE24595CB50069709A /* message.gif in Resources */ = {isa = PBXBuildFile; fileRef = E69FECE824595CB50069709A /* message.gif */; };
 		E69FECEF24595CB50069709A /* assignment.gif in Resources */ = {isa = PBXBuildFile; fileRef = E69FECE924595CB50069709A /* assignment.gif */; };
@@ -37,6 +38,7 @@
 		77F9DA6DB6E3812856104940 /* Pods-Bespoke Digital Media learning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bespoke Digital Media learning.release.xcconfig"; path = "Target Support Files/Pods-Bespoke Digital Media learning/Pods-Bespoke Digital Media learning.release.xcconfig"; sourceTree = "<group>"; };
 		E5698BB60CF11E3895F4D94A /* Pods-Bespoke Digital Media learning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bespoke Digital Media learning.debug.xcconfig"; path = "Target Support Files/Pods-Bespoke Digital Media learning/Pods-Bespoke Digital Media learning.debug.xcconfig"; sourceTree = "<group>"; };
 		E67FB6912458BC5400EA989A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E6821970245AF23C001D6A77 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		E69FECE6245958E90069709A /* swift+gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swift+gif.swift"; sourceTree = "<group>"; };
 		E69FECE824595CB50069709A /* message.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = message.gif; sourceTree = "<group>"; };
 		E69FECE924595CB50069709A /* assignment.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = assignment.gif; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				E69FECE6245958E90069709A /* swift+gif.swift */,
 				E6B2B204245AA62E0076DDC8 /* timeTableCell.swift */,
 				E69FECF424597D4C0069709A /* TimetableViewController.swift */,
+				E6821970245AF23C001D6A77 /* ContactView.swift */,
 				E69FECF824598EEC0069709A /* ProfileViewController.swift */,
 				E6FE38AA2459A89800871D7A /* AboutViewController.swift */,
 				E6ADF3B0245A91A300A9ABBB /* RevisionTableViewController.swift */,
@@ -265,6 +268,7 @@
 				E6B2B205245AA62F0076DDC8 /* timeTableCell.swift in Sources */,
 				E6F681DA2456BC5D007CD2FA /* AppDelegate.swift in Sources */,
 				E6ADF3B1245A91A300A9ABBB /* RevisionTableViewController.swift in Sources */,
+				E6821971245AF23C001D6A77 /* ContactView.swift in Sources */,
 				E69FECE7245958E90069709A /* swift+gif.swift in Sources */,
 				E6B2B203245A9FD30076DDC8 /* AssignmentTable.swift in Sources */,
 				E6FE38AB2459A89800871D7A /* AboutViewController.swift in Sources */,

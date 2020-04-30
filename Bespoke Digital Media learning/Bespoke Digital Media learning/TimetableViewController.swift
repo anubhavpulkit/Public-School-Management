@@ -49,7 +49,30 @@ class TimetableViewController: UIViewController, UITableViewDelegate, UITableVie
         navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
         navigationItem.title = "Time Table"
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "Arial Rounded MT Bold", size: 20.0)!, NSAttributedString.Key.foregroundColor: UIColor.white]
-           
+      
+        MonButton.layer.cornerRadius = 5
+        MonButton.layer.borderWidth = 1
+        MonButton.layer.borderColor = UIColor.black.cgColor
+        
+        TueButton.layer.cornerRadius = 5
+        TueButton.layer.borderWidth = 1
+        TueButton.layer.borderColor = UIColor.black.cgColor
+        
+        WedButton.layer.cornerRadius = 5
+        WedButton.layer.borderWidth = 1
+        WedButton.layer.borderColor = UIColor.black.cgColor
+        
+        TurButton.layer.cornerRadius = 5
+        TurButton.layer.borderWidth = 1
+        TurButton.layer.borderColor = UIColor.black.cgColor
+        
+        FriButton.layer.cornerRadius = 5
+        FriButton.layer.borderWidth = 1
+        FriButton.layer.borderColor = UIColor.black.cgColor
+        
+        SatButton.layer.cornerRadius = 5
+        SatButton.layer.borderWidth = 1
+        SatButton.layer.borderColor = UIColor.black.cgColor
     }
             
         

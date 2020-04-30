@@ -856,7 +856,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="hf0-GZ-gOY" kind="show" id="9ce-az-OoW"/>
+                                                    <segue destination="Dc3-JS-gI1" kind="show" id="Hxk-gu-RoP"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -924,6 +924,75 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rd7-oq-7lQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2478" y="955"/>
+        </scene>
+        <!--Contact View-->
+        <scene sceneID="NFA-or-HHN">
+            <objects>
+                <viewController id="Dc3-JS-gI1" customClass="ContactView" customModule="Bespoke_Digital_Media_learning" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="syK-Q7-McB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W8t-yN-YCX">
+                                <rect key="frame" x="20" y="384" width="374" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Jbq-eh-7Zz"/>
+                                    <constraint firstAttribute="width" constant="374" id="jlR-mq-66q"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" smartDashesType="no"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="be1-NG-1UO">
+                                <rect key="frame" x="52" y="554" width="311" height="57"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="311" id="mG9-eg-GPM"/>
+                                    <constraint firstAttribute="height" constant="57" id="rZO-9H-dhh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
+                                <state key="normal" title="SEND QUERY">
+                                    <color key="titleColor" red="0.36643666029999999" green="0.78444111350000001" blue="0.81405383350000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXr-G2-Efa">
+                                <rect key="frame" x="20" y="321" width="239" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="lye-9a-DgL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.36643666029999999" green="0.8289008927" blue="0.81405383350000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="be1-NG-1UO" secondAttribute="trailing" constant="51" id="2BX-as-Aon"/>
+                            <constraint firstItem="W8t-yN-YCX" firstAttribute="top" secondItem="rXr-G2-Efa" secondAttribute="bottom" constant="23" id="2Bk-BK-3nd"/>
+                            <constraint firstItem="rXr-G2-Efa" firstAttribute="leading" secondItem="syK-Q7-McB" secondAttribute="leading" constant="20" id="5E1-Vs-qkW"/>
+                            <constraint firstItem="be1-NG-1UO" firstAttribute="leading" secondItem="syK-Q7-McB" secondAttribute="leading" constant="52" id="6Vw-8K-kv4"/>
+                            <constraint firstItem="W8t-yN-YCX" firstAttribute="centerX" secondItem="syK-Q7-McB" secondAttribute="centerX" id="O4h-P1-H16"/>
+                            <constraint firstItem="W8t-yN-YCX" firstAttribute="centerY" secondItem="syK-Q7-McB" secondAttribute="centerY" id="PH8-Zx-zU9"/>
+                            <constraint firstAttribute="trailing" secondItem="rXr-G2-Efa" secondAttribute="trailing" constant="155" id="SuG-Oz-3zn"/>
+                            <constraint firstItem="be1-NG-1UO" firstAttribute="top" secondItem="W8t-yN-YCX" secondAttribute="bottom" constant="42" id="W9f-TT-EaE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2ta-PS-oHb"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pHd-GE-RkY">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="arrow.left" catalog="system" id="247-wg-Oaj">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="sendButton" destination="be1-NG-1UO" id="B27-cL-Urh"/>
+                        <outlet property="textLabel" destination="rXr-G2-Efa" id="AOJ-zZ-OVj"/>
+                        <outlet property="textView" destination="W8t-yN-YCX" id="VES-mK-D3U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8LH-W2-GbH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3895.652173913044" y="949.55357142857133"/>
         </scene>
         <!--Revision Table View Controller-->
         <scene sceneID="C9L-Tg-hSG">
@@ -1472,8 +1541,7 @@
         <image name="trophy" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="9ce-az-OoW"/>
-        <segue reference="jBN-3s-hMS"/>
+        <segue reference="fwu-Yx-Czz"/>
         <segue reference="qmd-eF-vcK"/>
     </inferredMetricsTieBreakers>
 </document>
