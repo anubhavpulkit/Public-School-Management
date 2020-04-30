@@ -542,6 +542,13 @@
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f97-Qy-GWm">
+                                                                <rect key="frame" x="0.0" y="0.0" width="173" height="161"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <connections>
+                                                                    <segue destination="Hpn-SL-uhF" kind="show" id="pXS-Uh-gHV"/>
+                                                                </connections>
+                                                            </button>
                                                         </subviews>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
@@ -1169,6 +1176,50 @@
             </objects>
             <point key="canvasLocation" x="4310" y="129"/>
         </scene>
+        <!--Fee Submission View Controller-->
+        <scene sceneID="2P7-lD-OOw">
+            <objects>
+                <viewController id="Hpn-SL-uhF" customClass="FeeSubmissionViewController" customModule="Bespoke_Digital_Media_learning" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tMp-DF-bMd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="OW3-Bk-swa"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" image="ic_home" id="KdQ-L4-dnB">
+                            <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="QyX-fq-J7v" kind="show" id="Omv-AL-c9V"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem tag="3" title="Item" image="other" style="plain" id="Dnx-tR-I8t">
+                            <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                        <barButtonItem title="Item" image="profile" id="c8a-39-tq1">
+                            <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="iZs-Uk-1lc" kind="show" id="ySu-Lz-a0C"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="Item" image="reward" id="Ga8-s9-zp7">
+                            <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="G9l-ll-EJ0">
+                        <barButtonItem key="leftBarButtonItem" title="back" image="arrow.left" catalog="system" id="iXB-gi-cXG">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="QyX-fq-J7v" kind="show" id="t6f-oD-OmO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ui0-56-veG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5294" y="129"/>
+        </scene>
         <!--Timetable View Controller-->
         <scene sceneID="wGr-0I-bNK">
             <objects>
@@ -1541,7 +1592,7 @@
         <image name="trophy" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fwu-Yx-Czz"/>
-        <segue reference="qmd-eF-vcK"/>
+        <segue reference="ySu-Lz-a0C"/>
+        <segue reference="t6f-oD-OmO"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -23,6 +23,7 @@
 		E6B2B1FF245A98460076DDC8 /* AssignmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2B1FE245A98460076DDC8 /* AssignmentCell.swift */; };
 		E6B2B203245A9FD30076DDC8 /* AssignmentTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2B202245A9FD30076DDC8 /* AssignmentTable.swift */; };
 		E6B2B205245AA62F0076DDC8 /* timeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2B204245AA62E0076DDC8 /* timeTableCell.swift */; };
+		E6E87E87245AFAFC0091607A /* FeeSubmissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E87E86245AFAFC0091607A /* FeeSubmissionViewController.swift */; };
 		E6F681DA2456BC5D007CD2FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F681D92456BC5D007CD2FA /* AppDelegate.swift */; };
 		E6F681DC2456BC5D007CD2FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F681DB2456BC5D007CD2FA /* SceneDelegate.swift */; };
 		E6F681DE2456BC5D007CD2FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F681DD2456BC5D007CD2FA /* ViewController.swift */; };
@@ -52,6 +53,7 @@
 		E6B2B1FE245A98460076DDC8 /* AssignmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentCell.swift; sourceTree = "<group>"; };
 		E6B2B202245A9FD30076DDC8 /* AssignmentTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AssignmentTable.swift; path = "/Users/anubhavsingh/Bespoke-School-Management/Bespoke Digital Media learning/Bespoke Digital Media learning/AssignmentTable.swift"; sourceTree = "<absolute>"; };
 		E6B2B204245AA62E0076DDC8 /* timeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = timeTableCell.swift; path = "/Users/anubhavsingh/Bespoke-School-Management/Bespoke Digital Media learning/Bespoke Digital Media learning/timeTableCell.swift"; sourceTree = "<absolute>"; };
+		E6E87E86245AFAFC0091607A /* FeeSubmissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeeSubmissionViewController.swift; sourceTree = "<group>"; };
 		E6F681D62456BC5D007CD2FA /* Bespoke Digital Media learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bespoke Digital Media learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F681D92456BC5D007CD2FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6F681DB2456BC5D007CD2FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				E6ADF3B0245A91A300A9ABBB /* RevisionTableViewController.swift */,
 				E6B2B1FE245A98460076DDC8 /* AssignmentCell.swift */,
 				E6B2B202245A9FD30076DDC8 /* AssignmentTable.swift */,
+				E6E87E86245AFAFC0091607A /* FeeSubmissionViewController.swift */,
 				E6F681DF2456BC5D007CD2FA /* Main.storyboard */,
 				E6F681E22456BC64007CD2FA /* Assets.xcassets */,
 				E69FECE924595CB50069709A /* assignment.gif */,
@@ -267,6 +270,7 @@
 				E6F681DE2456BC5D007CD2FA /* ViewController.swift in Sources */,
 				E6B2B205245AA62F0076DDC8 /* timeTableCell.swift in Sources */,
 				E6F681DA2456BC5D007CD2FA /* AppDelegate.swift in Sources */,
+				E6E87E87245AFAFC0091607A /* FeeSubmissionViewController.swift in Sources */,
 				E6ADF3B1245A91A300A9ABBB /* RevisionTableViewController.swift in Sources */,
 				E6821971245AF23C001D6A77 /* ContactView.swift in Sources */,
 				E69FECE7245958E90069709A /* swift+gif.swift in Sources */,
