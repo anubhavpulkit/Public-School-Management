@@ -8,11 +8,11 @@
 
 import UIKit
 
-class CoustumTableRevisonTableViewCell: UITableViewCell {
+class AssignmentCell: UITableViewCell {
     
-    @IBOutlet weak var label1: UILabel!
-    @IBOutlet weak var label2: UILabel!
-    @IBOutlet weak var img: UIImageView!
+    @IBOutlet weak var SubjectLabel: UILabel!
+    @IBOutlet weak var midLabel: UILabel!
+    @IBOutlet weak var BottomLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

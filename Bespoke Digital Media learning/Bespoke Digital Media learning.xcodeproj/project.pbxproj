@@ -19,8 +19,8 @@
 		E69FECF524597D4C0069709A /* TimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FECF424597D4C0069709A /* TimetableViewController.swift */; };
 		E69FECF924598EEC0069709A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FECF824598EEC0069709A /* ProfileViewController.swift */; };
 		E6ADF3B1245A91A300A9ABBB /* RevisionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ADF3B0245A91A300A9ABBB /* RevisionTableViewController.swift */; };
-		E6B2B1FF245A98460076DDC8 /* CoustumTableRevisonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2B1FE245A98460076DDC8 /* CoustumTableRevisonTableViewCell.swift */; };
-		E6B2B203245A9FD30076DDC8 /* custumTableRevision.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2B202245A9FD30076DDC8 /* custumTableRevision.swift */; };
+		E6B2B1FF245A98460076DDC8 /* AssignmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2B1FE245A98460076DDC8 /* AssignmentCell.swift */; };
+		E6B2B203245A9FD30076DDC8 /* AssignmentTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2B202245A9FD30076DDC8 /* AssignmentTable.swift */; };
 		E6B2B205245AA62F0076DDC8 /* timeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2B204245AA62E0076DDC8 /* timeTableCell.swift */; };
 		E6F681DA2456BC5D007CD2FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F681D92456BC5D007CD2FA /* AppDelegate.swift */; };
 		E6F681DC2456BC5D007CD2FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F681DB2456BC5D007CD2FA /* SceneDelegate.swift */; };
@@ -47,8 +47,8 @@
 		E69FECF424597D4C0069709A /* TimetableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableViewController.swift; sourceTree = "<group>"; };
 		E69FECF824598EEC0069709A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E6ADF3B0245A91A300A9ABBB /* RevisionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevisionTableViewController.swift; sourceTree = "<group>"; };
-		E6B2B1FE245A98460076DDC8 /* CoustumTableRevisonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustumTableRevisonTableViewCell.swift; sourceTree = "<group>"; };
-		E6B2B202245A9FD30076DDC8 /* custumTableRevision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = custumTableRevision.swift; path = "/Users/anubhavsingh/Bespoke-School-Management/Bespoke Digital Media learning/Bespoke Digital Media learning/custumTableRevision.swift"; sourceTree = "<absolute>"; };
+		E6B2B1FE245A98460076DDC8 /* AssignmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentCell.swift; sourceTree = "<group>"; };
+		E6B2B202245A9FD30076DDC8 /* AssignmentTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AssignmentTable.swift; path = "/Users/anubhavsingh/Bespoke-School-Management/Bespoke Digital Media learning/Bespoke Digital Media learning/AssignmentTable.swift"; sourceTree = "<absolute>"; };
 		E6B2B204245AA62E0076DDC8 /* timeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = timeTableCell.swift; path = "/Users/anubhavsingh/Bespoke-School-Management/Bespoke Digital Media learning/Bespoke Digital Media learning/timeTableCell.swift"; sourceTree = "<absolute>"; };
 		E6F681D62456BC5D007CD2FA /* Bespoke Digital Media learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bespoke Digital Media learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F681D92456BC5D007CD2FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,8 +123,8 @@
 				E69FECF824598EEC0069709A /* ProfileViewController.swift */,
 				E6FE38AA2459A89800871D7A /* AboutViewController.swift */,
 				E6ADF3B0245A91A300A9ABBB /* RevisionTableViewController.swift */,
-				E6B2B1FE245A98460076DDC8 /* CoustumTableRevisonTableViewCell.swift */,
-				E6B2B202245A9FD30076DDC8 /* custumTableRevision.swift */,
+				E6B2B1FE245A98460076DDC8 /* AssignmentCell.swift */,
+				E6B2B202245A9FD30076DDC8 /* AssignmentTable.swift */,
 				E6F681DF2456BC5D007CD2FA /* Main.storyboard */,
 				E6F681E22456BC64007CD2FA /* Assets.xcassets */,
 				E69FECE924595CB50069709A /* assignment.gif */,
@@ -266,11 +266,11 @@
 				E6F681DA2456BC5D007CD2FA /* AppDelegate.swift in Sources */,
 				E6ADF3B1245A91A300A9ABBB /* RevisionTableViewController.swift in Sources */,
 				E69FECE7245958E90069709A /* swift+gif.swift in Sources */,
-				E6B2B203245A9FD30076DDC8 /* custumTableRevision.swift in Sources */,
+				E6B2B203245A9FD30076DDC8 /* AssignmentTable.swift in Sources */,
 				E6FE38AB2459A89800871D7A /* AboutViewController.swift in Sources */,
 				E6F681DC2456BC5D007CD2FA /* SceneDelegate.swift in Sources */,
 				E69FECF524597D4C0069709A /* TimetableViewController.swift in Sources */,
-				E6B2B1FF245A98460076DDC8 /* CoustumTableRevisonTableViewCell.swift in Sources */,
+				E6B2B1FF245A98460076DDC8 /* AssignmentCell.swift in Sources */,
 				E69FECF924598EEC0069709A /* ProfileViewController.swift in Sources */,
 				E67FB6922458BC5400EA989A /* HomeViewController.swift in Sources */,
 			);

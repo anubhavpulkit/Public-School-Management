@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/anubhavsingh/Bespoke-School-Management/Bespoke Digital Media learning/Bespoke Digital Media learning/timeTableCell.swift">
+      location = "group:CostumTableViewController.swift">
    </FileRef>
    <FileRef
-      location = "group:/Users/anubhavsingh/Bespoke-School-Management/Bespoke Digital Media learning/Bespoke Digital Media learning/custumTableRevision.swift">
+      location = "group:timeTableCell.swift">
    </FileRef>
    <FileRef
       location = "group:Bespoke Digital Media learning.xcodeproj">
