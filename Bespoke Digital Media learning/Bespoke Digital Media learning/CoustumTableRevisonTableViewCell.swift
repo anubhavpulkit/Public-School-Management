@@ -1,23 +1,22 @@
 //
-//  TimeTableCellTableViewCell.swift
+//  CoustumTableRevisonTableViewCell.swift
 //  Bespoke Digital Media learning
 //
-//  Created by Anubhav Singh on 29/04/20.
+//  Created by Anubhav Singh on 30/04/20.
 //  Copyright © 2020 Bespoke Digital Media. All rights reserved.
 //
 
 import UIKit
 
-class TimeTableCellTableViewCell: UITableViewCell {
-
-    @IBOutlet weak var firstlabe: UILabel!
-    @IBOutlet weak var secondLabel: UILabel!
-    @IBOutlet weak var thirdLabel: UILabel!
-    @IBOutlet weak var forthLabel: UILabel!
+class CoustumTableRevisonTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var label1: UILabel!
+    @IBOutlet weak var label2: UILabel!
+    @IBOutlet weak var img: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-    
+        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

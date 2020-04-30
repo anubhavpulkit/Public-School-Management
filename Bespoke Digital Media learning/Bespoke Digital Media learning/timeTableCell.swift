@@ -1,23 +1,21 @@
 //
-//  TimeTableCellTableViewCell.swift
-//  Bespoke Digital Media learning
+//  timeTableCell.swift
+//  
 //
-//  Created by Anubhav Singh on 29/04/20.
-//  Copyright © 2020 Bespoke Digital Media. All rights reserved.
+//  Created by Anubhav Singh on 30/04/20.
 //
 
 import UIKit
 
-class TimeTableCellTableViewCell: UITableViewCell {
-
-    @IBOutlet weak var firstlabe: UILabel!
-    @IBOutlet weak var secondLabel: UILabel!
+class timeTableCell: UITableViewCell {
+    @IBOutlet weak var firstLabel: UILabel!
+    @IBOutlet weak var secLabel: UILabel!
     @IBOutlet weak var thirdLabel: UILabel!
     @IBOutlet weak var forthLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-    
+        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
