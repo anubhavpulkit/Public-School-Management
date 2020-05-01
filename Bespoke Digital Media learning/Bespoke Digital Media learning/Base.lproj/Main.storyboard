@@ -197,7 +197,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="121.33333333333333" height="22"/>
                                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="19"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <nil key="highlightedColor"/>
+                                                        <color key="highlightedColor" red="0.93186353600000005" green="0.93186353600000005" blue="0.93186353600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </label>
                                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4qz-MM-qGc">
                                                         <rect key="frame" x="0.0" y="29" width="414" height="128"/>
@@ -459,7 +459,7 @@
                                                         <rect key="frame" x="0.0" y="164" width="91" height="23.333333333333343"/>
                                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <nil key="highlightedColor"/>
+                                                        <color key="highlightedColor" red="0.93186353600000005" green="0.93186353600000005" blue="0.93186353600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </label>
                                                 </subviews>
                                                 <constraints>
@@ -861,6 +861,7 @@
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                                 <state key="normal" title="LOGOUT">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="titleShadowColor" red="0.93186353600000005" green="0.93186353600000005" blue="0.93186353600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="Dc3-JS-gI1" kind="show" id="Hxk-gu-RoP"/>
@@ -961,6 +962,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
                                 <state key="normal" title="SEND QUERY">
                                     <color key="titleColor" red="0.36643666029999999" green="0.78444111350000001" blue="0.81405383350000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.16862745100000001" green="0.73725490199999999" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXr-G2-Efa">
@@ -1183,7 +1185,36 @@
                     <view key="view" contentMode="scaleToFill" id="tMp-DF-bMd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3YO-DO-MU6">
+                                <rect key="frame" x="20" y="78" width="374" height="32"/>
+                                <segments>
+                                    <segment title="Fee Status"/>
+                                    <segment title="History"/>
+                                </segments>
+                                <color key="selectedSegmentTintColor" red="0.16862745100000001" green="0.73725490199999999" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="SwitchViewController:" destination="Hpn-SL-uhF" eventType="valueChanged" id="cGX-fK-ypK"/>
+                                </connections>
+                            </segmentedControl>
+                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="zHE-vU-oLO">
+                                <rect key="frame" x="20" y="129" width="374" height="684"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="zHE-vU-oLO" firstAttribute="top" secondItem="3YO-DO-MU6" secondAttribute="bottom" constant="20" id="1uk-zm-fO4"/>
+                            <constraint firstItem="3YO-DO-MU6" firstAttribute="trailing" secondItem="tMp-DF-bMd" secondAttribute="trailingMargin" id="6Z7-UE-NLN"/>
+                            <constraint firstItem="3YO-DO-MU6" firstAttribute="leading" secondItem="tMp-DF-bMd" secondAttribute="leadingMargin" id="GoP-RT-17F"/>
+                            <constraint firstItem="OW3-Bk-swa" firstAttribute="trailing" secondItem="zHE-vU-oLO" secondAttribute="trailing" constant="20" id="Mda-iN-nll"/>
+                            <constraint firstItem="zHE-vU-oLO" firstAttribute="leading" secondItem="OW3-Bk-swa" secondAttribute="leading" constant="20" id="QcA-c5-UTy"/>
+                            <constraint firstItem="zHE-vU-oLO" firstAttribute="bottom" secondItem="OW3-Bk-swa" secondAttribute="bottom" id="bEu-xL-edY"/>
+                            <constraint firstItem="zHE-vU-oLO" firstAttribute="bottom" secondItem="OW3-Bk-swa" secondAttribute="bottom" id="gH9-no-uO8"/>
+                            <constraint firstItem="3YO-DO-MU6" firstAttribute="leading" secondItem="zHE-vU-oLO" secondAttribute="leading" id="lL5-2A-fiK"/>
+                            <constraint firstItem="3YO-DO-MU6" firstAttribute="trailing" secondItem="zHE-vU-oLO" secondAttribute="trailing" id="uhg-6F-Pxh"/>
+                            <constraint firstItem="3YO-DO-MU6" firstAttribute="top" secondItem="OW3-Bk-swa" secondAttribute="top" constant="34" id="v9w-sh-OOI"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="OW3-Bk-swa"/>
                     </view>
                     <toolbarItems>
@@ -1215,10 +1246,13 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="viewContainer" destination="zHE-vU-oLO" id="skr-wJ-Qhg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ui0-56-veG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5294" y="129"/>
+            <point key="canvasLocation" x="5292.753623188406" y="128.57142857142856"/>
         </scene>
         <!--Timetable View Controller-->
         <scene sceneID="wGr-0I-bNK">

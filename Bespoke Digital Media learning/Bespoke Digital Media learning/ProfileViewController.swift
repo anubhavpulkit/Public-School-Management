@@ -30,6 +30,11 @@ class ProfileViewController: UIViewController {
                navigationItem.title = "Welcome Student 1"
                self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "Arial Rounded MT Bold", size: 20.0)!, NSAttributedString.Key.foregroundColor: UIColor.white]
                
+        logout.layer.cornerRadius = 5
+        logout.layer.borderWidth = 1
+        logout.layer.borderColor = UIColor.systemTeal.cgColor
+        
+        
         // for side Menu
           menu = SideMenuNavigationController(rootViewController: menuListController())
           menu?.leftSide = true

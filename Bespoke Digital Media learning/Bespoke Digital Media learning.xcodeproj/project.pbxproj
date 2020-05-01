@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5C5172C4450CB7D2C30465B8 /* Pods_Bespoke_Digital_Media_learning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D2B6E6BED22FBC8F177EE6 /* Pods_Bespoke_Digital_Media_learning.framework */; };
+		E6525AAA245C025000B50940 /* SimpleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6525AA8245C025000B50940 /* SimpleVC.swift */; };
+		E6525AAB245C025000B50940 /* SimpleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6525AA9245C025000B50940 /* SimpleVC.xib */; };
+		E6525AB2245C045600B50940 /* SimpleVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6525AB0245C045600B50940 /* SimpleVC2.swift */; };
+		E6525AB3245C045600B50940 /* SimpleVC2.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6525AB1245C045600B50940 /* SimpleVC2.xib */; };
 		E67FB6922458BC5400EA989A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FB6912458BC5400EA989A /* HomeViewController.swift */; };
 		E6821971245AF23C001D6A77 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6821970245AF23C001D6A77 /* ContactView.swift */; };
 		E69FECE7245958E90069709A /* swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FECE6245958E90069709A /* swift+gif.swift */; };
@@ -38,6 +42,10 @@
 		45D2B6E6BED22FBC8F177EE6 /* Pods_Bespoke_Digital_Media_learning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bespoke_Digital_Media_learning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F9DA6DB6E3812856104940 /* Pods-Bespoke Digital Media learning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bespoke Digital Media learning.release.xcconfig"; path = "Target Support Files/Pods-Bespoke Digital Media learning/Pods-Bespoke Digital Media learning.release.xcconfig"; sourceTree = "<group>"; };
 		E5698BB60CF11E3895F4D94A /* Pods-Bespoke Digital Media learning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bespoke Digital Media learning.debug.xcconfig"; path = "Target Support Files/Pods-Bespoke Digital Media learning/Pods-Bespoke Digital Media learning.debug.xcconfig"; sourceTree = "<group>"; };
+		E6525AA8245C025000B50940 /* SimpleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleVC.swift; sourceTree = "<group>"; };
+		E6525AA9245C025000B50940 /* SimpleVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleVC.xib; sourceTree = "<group>"; };
+		E6525AB0245C045600B50940 /* SimpleVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleVC2.swift; sourceTree = "<group>"; };
+		E6525AB1245C045600B50940 /* SimpleVC2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleVC2.xib; sourceTree = "<group>"; };
 		E67FB6912458BC5400EA989A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E6821970245AF23C001D6A77 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		E69FECE6245958E90069709A /* swift+gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swift+gif.swift"; sourceTree = "<group>"; };
@@ -95,6 +103,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E6525AA7245C01F800B50940 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				E6525AA8245C025000B50940 /* SimpleVC.swift */,
+				E6525AA9245C025000B50940 /* SimpleVC.xib */,
+				E6525AB0245C045600B50940 /* SimpleVC2.swift */,
+				E6525AB1245C045600B50940 /* SimpleVC2.xib */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		E6F681CD2456BC5D007CD2FA = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +135,7 @@
 		E6F681D82456BC5D007CD2FA /* Bespoke Digital Media learning */ = {
 			isa = PBXGroup;
 			children = (
+				E6525AA7245C01F800B50940 /* New Group */,
 				E6F681ED2456BE92007CD2FA /* Montserrat */,
 				E6F681D92456BC5D007CD2FA /* AppDelegate.swift */,
 				E6F681DB2456BC5D007CD2FA /* SceneDelegate.swift */,
@@ -206,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E69FECF024595CB50069709A /* performance.gif in Resources */,
+				E6525AAB245C025000B50940 /* SimpleVC.xib in Resources */,
 				E6F681E62456BC64007CD2FA /* LaunchScreen.storyboard in Resources */,
 				E69FECEE24595CB50069709A /* message.gif in Resources */,
 				E6F681EE2456BE92007CD2FA /* Montserrat in Resources */,
@@ -215,6 +236,7 @@
 				E6F681E12456BC5D007CD2FA /* Main.storyboard in Resources */,
 				E69FECEF24595CB50069709A /* assignment.gif in Resources */,
 				E69FECF324595CB50069709A /* attendance.gif in Resources */,
+				E6525AB3245C045600B50940 /* SimpleVC2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +302,9 @@
 				E69FECF524597D4C0069709A /* TimetableViewController.swift in Sources */,
 				E6B2B1FF245A98460076DDC8 /* AssignmentCell.swift in Sources */,
 				E69FECF924598EEC0069709A /* ProfileViewController.swift in Sources */,
+				E6525AAA245C025000B50940 /* SimpleVC.swift in Sources */,
 				E67FB6922458BC5400EA989A /* HomeViewController.swift in Sources */,
+				E6525AB2245C045600B50940 /* SimpleVC2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
