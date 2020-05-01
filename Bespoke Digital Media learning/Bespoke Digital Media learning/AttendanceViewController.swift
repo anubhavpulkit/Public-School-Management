@@ -34,28 +34,18 @@ class AttendanceViewController: UIViewController {
         
         firstView.layer.cornerRadius = 20
         
-        Jan.layer.cornerRadius = 5
-        feb.layer.cornerRadius = 5
-        march.layer.cornerRadius = 5
-        Apr.layer.cornerRadius = 5
-        may.layer.cornerRadius = 5
-        jun.layer.cornerRadius = 5
-        july.layer.cornerRadius = 5
-        aug.layer.cornerRadius = 5
-        sept.layer.cornerRadius = 5
-        oct.layer.cornerRadius = 5
-        nov.layer.cornerRadius = 5
-        dec.layer.cornerRadius = 5
-
-
-
-
-
-
-
-
-
-
+        Jan.layer.cornerRadius = 6
+        feb.layer.cornerRadius = 6
+        march.layer.cornerRadius = 6
+        Apr.layer.cornerRadius = 6
+        may.layer.cornerRadius = 6
+        jun.layer.cornerRadius = 6
+        july.layer.cornerRadius = 6
+        aug.layer.cornerRadius = 6
+        sept.layer.cornerRadius = 6
+        oct.layer.cornerRadius = 6
+        nov.layer.cornerRadius = 6
+        dec.layer.cornerRadius = 6
 
         
     }
