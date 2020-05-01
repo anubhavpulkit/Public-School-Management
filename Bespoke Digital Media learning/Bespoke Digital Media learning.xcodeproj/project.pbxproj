@@ -37,6 +37,7 @@
 		E6F681EE2456BE92007CD2FA /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = E6F681ED2456BE92007CD2FA /* Montserrat */; };
 		E6FB621D245C3EAF008859E5 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FB621C245C3EAF008859E5 /* NotificationViewController.swift */; };
 		E6FB621F245C3EE8008859E5 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FB621E245C3EE8008859E5 /* NotificationTableViewCell.swift */; };
+		E6FB6221245C4C99008859E5 /* AttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FB6220245C4C99008859E5 /* AttendanceViewController.swift */; };
 		E6FE38AB2459A89800871D7A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FE38AA2459A89800871D7A /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		E6F681ED2456BE92007CD2FA /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
 		E6FB621C245C3EAF008859E5 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		E6FB621E245C3EE8008859E5 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		E6FB6220245C4C99008859E5 /* AttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceViewController.swift; sourceTree = "<group>"; };
 		E6FE38AA2459A89800871D7A /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,6 +158,7 @@
 				E6B2B1FE245A98460076DDC8 /* AssignmentCell.swift */,
 				E6B2B202245A9FD30076DDC8 /* AssignmentTable.swift */,
 				E6E87E86245AFAFC0091607A /* FeeSubmissionViewController.swift */,
+				E6FB6220245C4C99008859E5 /* AttendanceViewController.swift */,
 				E6F681DF2456BC5D007CD2FA /* Main.storyboard */,
 				E6F681E22456BC64007CD2FA /* Assets.xcassets */,
 				E6ADF3B0245A91A300A9ABBB /* RevisionTableViewController.swift */,
@@ -313,6 +316,7 @@
 				E6525AAA245C025000B50940 /* SimpleVC.swift in Sources */,
 				E67FB6922458BC5400EA989A /* HomeViewController.swift in Sources */,
 				E6525AB2245C045600B50940 /* SimpleVC2.swift in Sources */,
+				E6FB6221245C4C99008859E5 /* AttendanceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
