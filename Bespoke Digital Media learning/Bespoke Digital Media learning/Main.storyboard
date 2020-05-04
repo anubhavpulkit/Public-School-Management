@@ -1259,6 +1259,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD:Bespoke Digital Media learning/Bespoke Digital Media learning/Main.storyboard
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="v8D-ES-uMM">
+                                <rect key="frame" x="0.0" y="88" width="414" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LMx-LB-MBu">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="40"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvh-Id-Ysy">
+                                        <rect key="frame" x="207" y="0.0" width="207" height="40"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="soj-wH-kZ7"/>
+                                </constraints>
+                            </stackView>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S96-KW-m0T">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="DVd-zq-MYo"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="v8D-ES-uMM" firstAttribute="top" secondItem="S96-KW-m0T" secondAttribute="bottom" id="LMQ-4q-Pb8"/>
+                            <constraint firstItem="v8D-ES-uMM" firstAttribute="leading" secondItem="OW3-Bk-swa" secondAttribute="leading" id="bGa-dq-rAQ"/>
+                            <constraint firstItem="OW3-Bk-swa" firstAttribute="trailing" secondItem="v8D-ES-uMM" secondAttribute="trailing" id="wbV-vW-XCs"/>
+=======
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3YO-DO-MU6">
                                 <rect key="frame" x="20" y="78" width="374" height="32"/>
                                 <segments>
@@ -1287,6 +1317,7 @@
                             <constraint firstItem="3YO-DO-MU6" firstAttribute="leading" secondItem="zHE-vU-oLO" secondAttribute="leading" id="lL5-2A-fiK"/>
                             <constraint firstItem="3YO-DO-MU6" firstAttribute="trailing" secondItem="zHE-vU-oLO" secondAttribute="trailing" id="uhg-6F-Pxh"/>
                             <constraint firstItem="3YO-DO-MU6" firstAttribute="top" secondItem="OW3-Bk-swa" secondAttribute="top" constant="34" id="v9w-sh-OOI"/>
+>>>>>>> 9ef69eb94e962cad8e35a1c14123d688806a72eb:Bespoke Digital Media learning/Bespoke Digital Media learning/Base.lproj/Main.storyboard
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="OW3-Bk-swa"/>
                     </view>
@@ -1325,6 +1356,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ui0-56-veG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD:Bespoke Digital Media learning/Bespoke Digital Media learning/Main.storyboard
+            <point key="canvasLocation" x="4965.217391304348" y="128.57142857142856"/>
+=======
             <point key="canvasLocation" x="5292.753623188406" y="128.57142857142856"/>
         </scene>
         <!--Attendance View Controller-->
@@ -1579,6 +1613,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ktg-Yf-0wc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6257.971014492754" y="129.91071428571428"/>
+>>>>>>> 9ef69eb94e962cad8e35a1c14123d688806a72eb:Bespoke Digital Media learning/Bespoke Digital Media learning/Base.lproj/Main.storyboard
         </scene>
         <!--Timetable View Controller-->
         <scene sceneID="wGr-0I-bNK">
@@ -1916,11 +1951,18 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="p73-JD-2ri">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.36643666029999999" green="0.78444111350000001" blue="0.81405383350000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="W9u-MG-4H8">
                         <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.36643666029999999" green="0.78444111350000001" blue="0.81405383350000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </toolbar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="HN8-WU-q8I"/>
