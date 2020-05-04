@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:CostumTableViewController.swift">
-   </FileRef>
-   <FileRef
-      location = "group:timeTableCell.swift">
-   </FileRef>
-   <FileRef
       location = "group:Bespoke Digital Media learning.xcodeproj">
    </FileRef>
    <FileRef
