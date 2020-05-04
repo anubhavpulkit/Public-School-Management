@@ -7,4 +7,6 @@ target 'Bespoke Digital Media learning' do
 
   pod 'SideMenu'
 
+  pod 'Firebase/Auth'
+
 end

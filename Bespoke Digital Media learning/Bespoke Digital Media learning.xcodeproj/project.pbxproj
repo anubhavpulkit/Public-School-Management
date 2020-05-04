@@ -27,6 +27,7 @@
 		E6B2B1FF245A98460076DDC8 /* AssignmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2B1FE245A98460076DDC8 /* AssignmentCell.swift */; };
 		E6B2B203245A9FD30076DDC8 /* AssignmentTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2B202245A9FD30076DDC8 /* AssignmentTable.swift */; };
 		E6B2B205245AA62F0076DDC8 /* timeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2B204245AA62E0076DDC8 /* timeTableCell.swift */; };
+		E6D42A80245FD54F007E50B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6D42A7F245FD54F007E50B2 /* GoogleService-Info.plist */; };
 		E6E87E87245AFAFC0091607A /* FeeSubmissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E87E86245AFAFC0091607A /* FeeSubmissionViewController.swift */; };
 		E6F681DA2456BC5D007CD2FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F681D92456BC5D007CD2FA /* AppDelegate.swift */; };
 		E6F681DC2456BC5D007CD2FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F681DB2456BC5D007CD2FA /* SceneDelegate.swift */; };
@@ -64,6 +65,7 @@
 		E6B2B1FE245A98460076DDC8 /* AssignmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentCell.swift; sourceTree = "<group>"; };
 		E6B2B202245A9FD30076DDC8 /* AssignmentTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AssignmentTable.swift; path = "/Users/anubhavsingh/Bespoke-School-Management/Bespoke Digital Media learning/Bespoke Digital Media learning/AssignmentTable.swift"; sourceTree = "<absolute>"; };
 		E6B2B204245AA62E0076DDC8 /* timeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = timeTableCell.swift; path = "/Users/anubhavsingh/Bespoke-School-Management/Bespoke Digital Media learning/Bespoke Digital Media learning/timeTableCell.swift"; sourceTree = "<absolute>"; };
+		E6D42A7F245FD54F007E50B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E6E87E86245AFAFC0091607A /* FeeSubmissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeeSubmissionViewController.swift; sourceTree = "<group>"; };
 		E6F681D62456BC5D007CD2FA /* Bespoke Digital Media learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bespoke Digital Media learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F681D92456BC5D007CD2FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				E69FECEC24595CB50069709A /* timetable.gif */,
 				E6F681E42456BC64007CD2FA /* LaunchScreen.storyboard */,
 				E6F681E72456BC64007CD2FA /* Info.plist */,
+				E6D42A7F245FD54F007E50B2 /* GoogleService-Info.plist */,
 			);
 			path = "Bespoke Digital Media learning";
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D42A80245FD54F007E50B2 /* GoogleService-Info.plist in Resources */,
 				E69FECF024595CB50069709A /* performance.gif in Resources */,
 				E6525AAB245C025000B50940 /* SimpleVC.xib in Resources */,
 				E6F681E62456BC64007CD2FA /* LaunchScreen.storyboard in Resources */,
